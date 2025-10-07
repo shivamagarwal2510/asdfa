@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&family=Bungee&family=Kalam:wght@700&family=Bangers&family=Creepster&family=Freckle+Face&family=Griffy&family=Lacquer&family=Orbitron:wght@900&family=Permanent+Marker&family=Russo+One&family=Shrikhand&family=Titan One&family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Black+Ops+One&family=Bowlby+One&family=Bungee+Shade&family=Fredericka+the+Great&family=Goblin+One&family=Henny+Penny&family=Kavoon&family=Luckiest+Guy&family=Modak&family=Nosifer&family=Pirata+One&family=Rammetto+One&family=Rubik+Bubbles&family=Rubik+Glitch&family=Sancreek&family=Special+Elite&family=Squada+One&family=Stalinist+One&family=Ultra&family=Unlock&family=Yeseva+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  cursor: none !important;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  overflow-x: hidden;
+  cursor: none !important;
+}
+
+.creative-fonts {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  vertical-align: baseline;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.spawned-image {
+  position: absolute;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+  cursor: none !important;
+}
+
+.spawned-image:hover {
+  transform: scale(1.05) rotate(2deg);
+  z-index: 1000;
+}
+
+button {
+  cursor: none !important;
+}
+
+a, input, textarea, select {
+  cursor: none !important;
+}
